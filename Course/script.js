@@ -136,4 +136,115 @@ console.log(markBMI > johnBMI);
 */
 
 // Lecture 6
+/*
+const firstName = 'Pedro';
+const job = 'programmer';
+const birthYear = 1997;
+const year = 2022;
 
+const pedro = "I'm" + firstName + ", a " + (year - birthYear) + "Years Old " + job + "!!";
+console.log(pedro);
+
+const pedro2 = `I'm ${firstName}, a ${year - birthYear} Years Old ${job}!!!`;
+console.log(pedro2);
+
+console.log(`String with Line \n\
+Second String with Line \n\
+`)
+
+console.log(`New Lines
+without backslash n `);
+*/
+
+// Lecture 7 Decisions
+/*
+const age = 15;
+const isOldEnough = age >= 18;
+
+if (isOldEnough)
+{
+console.log("Can start driving license");
+}else
+{
+    const yearsLeft = 18 - age;
+console.log(`Cannot start driving license,wait another ${yearsLeft} years`);
+}
+
+const birthYear = 1997;
+let century;
+if(birthYear <= 2000) {
+century = 20;
+}else{
+century = 21;
+}
+console.log(century);
+*/
+
+// Coding Challenge #2
+/*
+Use the BMI example from Challenge #1, and the code you already wrote, and 
+improve it. 
+Your tasks: 
+1. Print a nice output to the console, saying who has the higher BMI. The message 
+is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!" 
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's 
+BMI (28.3) is higher than John's (23.9)!" 
+Hint: Use an if/else statement 😉 
+
+GOOD LUCK 😀
+*/
+
+/*
+// const markMass = 78;
+// const markHeight = 1.69;
+
+const markMass = 95;
+const markHeight = 1.88;
+
+// const johnMass = 92;
+// const johnHeight = 1.95
+
+const johnMass = 85;
+const johnHeight = 1.76
+
+var markBMI =  markMass / (markHeight **2)
+
+var johnBMI = johnMass / (johnHeight **2)
+
+if (markBMI > johnBMI){
+console.log(`Mark's BMI ${markBMI} is higher than John's ${johnBMI}`)
+}else{
+console.log(`John's ${johnBMI} BMI is higher than Mark's ${markBMI}`)
+}
+*/
+
+// Lecture 8 Type Conversion and Coercion
+/*
+const inputYear = '1997';
+console.log(Number(inputYear));
+console.log(inputYear + 18);
+*/
+
+// Lecture 9 Equality Operators
+/*
+const age = 18;
+
+if(age === 18) console.log('You Just became an adult (Strict)');
+
+if(age == 18) console.log('You Just became an adult (Loose)');
+
+const favourite = Number(prompt("Whats is your favourite number?"));
+console.log(favourite);
+
+if(favourite === 18){
+    console.log("Cool!!!!");
+}else if(favourite === 7){
+    console.log("Cool222!!!!");
+}else{
+    console.log("Nice!!!");
+}
+
+if(favourite !== 25){
+    console.log("Why not 23??!");
+}
+*/

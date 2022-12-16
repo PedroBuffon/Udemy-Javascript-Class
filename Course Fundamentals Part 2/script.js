@@ -10,7 +10,7 @@ if (hasDriversLicense) console.log('i can drive');
 */
 
 // Lecture 2 Functions
-
+/*
 function logger(){
     console.log('My name is Pedro');
 }
@@ -30,3 +30,39 @@ console.log(applejuice);
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
+*/
+
+// Lecture 3 Function Declarations vs. Expressions
+/*
+function calcAge1(birthYear){
+    return 2022 - birthYear;;
+}
+const age1 = calcAge1(1997);
+console.log(age1);
+
+const calcAge2 = function (birthYear){
+    return 2022 - birthYear;
+}
+const age2 = calcAge2(1997);
+console.log(age2);
+*/
+
+// Lecture 4 Arrow Functions
+/*
+//function expression
+const calcAge2 = function (birthYear){
+    return 2022 - birthYear;
+}
+// Arrow Function
+const calcAge3 = birthYear => 2022 - birthYear;
+const age3 = calcAge3(1997);
+console.log(age3);
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+    const age = 2022 - birthYear;
+    const retirement = 65 - age;
+    // return retirement;
+    return `${firstName} retires in ${retirement} years`;
+}
+console.log(yearsUntilRetirement(1997, 'Pedro Buffon'));
+*/
